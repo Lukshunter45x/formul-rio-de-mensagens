@@ -1,0 +1,60 @@
+body{
+width: 100vw;
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+
+
+
+}
+form{
+background-color: rgb(211, 207, 207);
+display: flex;
+flex-flow: column wrap;
+padding: 40px;
+border-radius: 10px;
+border: 1px solid rgb(211, 207, 207);
+flex-flow: column;
+
+
+}
+input{
+
+width: 90%;
+height: 30px;
+margin-top: 15px;
+margin-bottom: 15px;
+padding: 10px;
+
+}
+textarea{
+
+    width: 90%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 10px;
+    
+
+
+}
+button{
+background-color: darkgreen;
+color: white;
+padding: 15px 10 px;
+border: none;
+cursor:pointer ;
+}
+
+
+.mensagens {
+flex-flow: column;
+display: flex;
+background-color: rgb(61, 45, 24);
+padding: 10px;
+margin-top: 20px;
+
+
+}
